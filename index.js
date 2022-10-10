@@ -6,10 +6,17 @@ const generateMarkdown = require('./utils/generateMarkdown')
 
 // TODO: Create an array of questions for user input
 const questions = require("./utils/questions")
-// TODO: Create a function to write README file
+
+inquirer
+.prompt(questions)
+.then((answer) => {
+    console.log(answer)
+})
+
+// TODO: Create a function to write README file  THIS IS A COMMENT
 function writeToFile(fileName, data) {
-    // fs.writeFile(fileName, generateMarkdown(data), (err) =>
-    //     err ? console.error(err) : console.log('Success!'))
+//     // fs.writeFile(fileName, generateMarkdown(data), (err) =>  THIS IS A COMMENT
+//     //     err ? console.error(err) : console.log('Success!'))  THIS IS A COMMENT
     try {
         fs.writeFile(fileName, generateMarkdown(data))
         console.log("Success")
@@ -18,12 +25,12 @@ function writeToFile(fileName, data) {
     }
 }
 
-// TODO: Create a function to initialize app
+// // TODO: Create a function to initialize app  THIS IS A COMMENT
 async function init() {
     var answers = await inquirer.prompt(questions)
     console.log(answers)
     writeToFile('./output/README.md', answers)
 }
 
-// Function call to initialize app
+// // Function call to initialize app  THIS IS A COMMENT
 init();
