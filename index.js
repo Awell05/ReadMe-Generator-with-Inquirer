@@ -7,11 +7,6 @@ const generateMarkdown = require('./utils/generateMarkdown')
 // TODO: Create an array of questions for user input
 const questions = require("./utils/questions")
 
-inquirer
-.prompt(questions)
-.then((answer) => {
-    console.log(answer)
-})
 
 // TODO: Create a function to write README file  THIS IS A COMMENT
 function writeToFile(fileName, data) {
@@ -25,7 +20,7 @@ function writeToFile(fileName, data) {
     }
 }
 
-// // TODO: Create a function to initialize app  THIS IS A COMMENT
+// // TODO: Create a function to initialize app  
 async function init() {
     var answers = await inquirer.prompt(questions)
     console.log(answers)
