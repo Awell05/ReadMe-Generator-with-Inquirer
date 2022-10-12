@@ -3,21 +3,38 @@
 function renderLicenseBadge(license) {
   console.log(license)
   switch (license) {
-    case "MIt":
-      return "MIT LIcense"
+    case "MIT":
+      return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
       break;
-    case "Apache":
-      return "Apache license badge"
+    case "Apache 2.0 License":
+      return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+      break;
+    case "GLPv2":
+      return "GLPv[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)2"
       break;
     default:
-      return "No License Selected"
+      return ""
       break;
   }
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  switch (license)  {
+    case "MIT":
+      return "https://opensource.org/licenses/MIT"
+      break;
+    case "Apache":
+      return "https://www.apache.org/licenses/LICENSE-2.0"
+      break;
+    case "GNU GLPv2":
+      return "https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html"
+    default:
+      return ""
+      break;
+  }
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -58,15 +75,15 @@ function generateMarkdown(data) {
   
   ${data.license}
   
-  🏆 
   
   ## Badges
   
   ${renderLicenseBadge(data.license)}
+  ${renderLicenseLink(data.license)}
  
   ## Questions
   
-    If you have additional questions, contact me:\n
+    If you have additional questions, contact\n
     GitHub: ${data.username}\n
     Email: ${data.email}\n
 `;

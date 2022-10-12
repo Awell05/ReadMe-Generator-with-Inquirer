@@ -1,8 +1,8 @@
-# HarperLove
+# jezebel
   
   ## Description
 
-  dating app to find the love of your life
+  adult toy shop for those who like to have fun
   
   ## Table of Contents 
   
@@ -13,35 +13,36 @@
 
   ## Installation
 
-  install it
+  install it carefully
   
   ## Usage
   
-  use it boo
+  for adult usage only
 
   ## How to Contribute
 
-  make sure you contribute to it
+  contribute to it 
 
   ## Tests
   
-  it's been tested
+  run them
 
   ## License
   
-  MIT
+  Apache 2.0 License
   
   🏆 
   
   ## Badges
   
-  No License Selected
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  
  
   ## Questions
   
     If you have additional questions, contact me:
 
-    GitHub: gemme98
+    GitHub: wellbell
 
-    Email: lolo@yahoo.com
+    Email: wellie@yahoo.com
 

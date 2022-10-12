@@ -10,8 +10,6 @@ const questions = require("./utils/questions")
 
 // TODO: Create a function to write README file  THIS IS A COMMENT
 function writeToFile(fileName, data) {
-//     // fs.writeFile(fileName, generateMarkdown(data), (err) =>  THIS IS A COMMENT
-//     //     err ? console.error(err) : console.log('Success!'))  THIS IS A COMMENT
     try {
         fs.writeFile(fileName, generateMarkdown(data))
         console.log("Success")
