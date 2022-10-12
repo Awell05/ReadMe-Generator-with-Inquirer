@@ -1,8 +1,8 @@
-# jezebel
+# Itsy Bitsy Spider
   
   ## Description
 
-  adult toy shop for those who like to have fun
+  site design to search your favorite spiders
   
   ## Table of Contents 
   
@@ -13,36 +13,35 @@
 
   ## Installation
 
-  install it carefully
+  review package.json
   
   ## Usage
   
-  for adult usage only
+  search for you favorite spiders 
 
   ## How to Contribute
 
-  contribute to it 
+  n/a
 
   ## Tests
   
-  run them
+  n/a
 
   ## License
   
-  Apache 2.0 License
+  MIT
   
-  🏆 
   
   ## Badges
   
-  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  https://opensource.org/licenses/MIT
  
   ## Questions
   
-    If you have additional questions, contact me:
+    If you have additional questions, contact
 
-    GitHub: wellbell
+    GitHub: awell05
 
-    Email: wellie@yahoo.com
+    Email: awell@yahoo.com
 

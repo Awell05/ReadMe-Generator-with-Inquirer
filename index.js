@@ -12,7 +12,6 @@ const questions = require("./utils/questions")
 function writeToFile(fileName, data) {
     try {
         fs.writeFile(fileName, generateMarkdown(data))
-        console.log("Success")
     } catch (error) {
         console.log(error)
     }
@@ -21,7 +20,6 @@ function writeToFile(fileName, data) {
 // // TODO: Create a function to initialize app  
 async function init() {
     var answers = await inquirer.prompt(questions)
-    console.log(answers)
     writeToFile('./output/README.md', answers)
 }
 
