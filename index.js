@@ -20,7 +20,7 @@ function writeToFile(fileName, data) {
 // // TODO: Create a function to initialize app  
 async function init() {
     var answers = await inquirer.prompt(questions)
-    writeToFile('./output/README.md', answers)
+    writeToFile('README.md', answers)
 }
 
 // // Function call to initialize app  THIS IS A COMMENT

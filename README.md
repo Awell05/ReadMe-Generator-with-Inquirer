@@ -1,8 +1,8 @@
-# Itsy Bitsy Spider
+# ReadMe-Generator 
   
   ## Description
 
-  site design to search your favorite spiders
+  This app allows the user to generate a readMe from the terminal.
   
   ## Table of Contents 
   
@@ -13,11 +13,11 @@
 
   ## Installation
 
-  review package.json
+  n/a
   
   ## Usage
   
-  search for you favorite spiders 
+  review the package.json
 
   ## How to Contribute
 
